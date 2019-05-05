@@ -1,0 +1,15 @@
+package aprivate.justoapp.Models;
+
+
+import aprivate.justoapp.Utils.BussinessRules;
+import aprivate.justoapp.Utils.Utils;
+
+/**
+ * Created by argrod on 02/05/19.
+ */
+
+public class TShirt extends Item {
+    public TShirt() {
+        setPromo(BussinessRules.BulkPurchasesType);
+    }
+}

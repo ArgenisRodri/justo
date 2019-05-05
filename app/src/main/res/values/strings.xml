@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">justoApp</string>
+    <string name="builk">Bulk Purchases</string>
+    <string name="twoforone">Two For One</string>
 </resources>
