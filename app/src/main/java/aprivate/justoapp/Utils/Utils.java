@@ -15,14 +15,13 @@ public class Utils {
     //URL for enviroments
     public static String BASE_URL_PRD = "https://api.myjson.com";
     public static String BASE_URL_DEV = "https://api.myjson.com";
-
+    public static String URL = BASE_URL_PRD;
     public static String URL_PRICES = "/bins/lttvc";
 
     //enum for choose service type
     public enum ServiceType {
         getPrices;
     }
-
 
 
     //for bussiness rules

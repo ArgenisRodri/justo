@@ -114,7 +114,7 @@ public class ServiceItemProduct {
         final JSONArray jsonArray = new JSONArray();
         JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(
                 Request.Method.GET,
-                Utils.BASE_URL_DEV + Utils.URL_PRICES, null, new Response.Listener<JSONObject>() {
+                Utils.URL + Utils.URL_PRICES, null, new Response.Listener<JSONObject>() {
             @Override
             public void onResponse(JSONObject response) {
 
